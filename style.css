@@ -124,8 +124,20 @@ p{
 
 }
 
-ol{
+ul{
   text-align: center;
+  list-style-type: none;
+}
+
+a{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 992px) {
@@ -133,7 +145,5 @@ ol{
     margin-left: 500px;
   }
   
-   ol{
-    margin-left: 500px;
-  }
+   
 }
